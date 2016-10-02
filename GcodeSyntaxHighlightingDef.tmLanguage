@@ -34,7 +34,7 @@
 			<key>comment</key>
 			<string>comments</string>
 			<key>match</key>
-			<string>\(.*\)</string>
+			<string>([;(]+)(.*)(\)*)$</string>
 			<key>name</key>
 			<string>comment.line</string>
 		</dict>
